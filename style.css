@@ -1,0 +1,134 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+  width: 100%;
+  height: 400px;
+}
+
+.logo {
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 15px;
+  color: white;
+  margin-right: 15%;
+}
+
+.nav-url {
+  color: white;
+}
+
+.qoutes {
+  color: white;
+  box-sizing: border-box;
+  width: 30%;
+  margin-top: 60px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 200px;
+}
+
+.hero-image {
+  height: 250px;
+  width: 500px;
+  justify-content: right;
+  margin-top: 40px;
+}
+
+.hero-image:hover {
+  background: img (https://s26162.pcdn.co/wp-content/uploads/sites/2/2022/05/Book.jpg);
+}
+
+.harryImg {
+  height: 180px;
+  width: 120px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.books-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin-top: 30px;
+}
+
+.coversOption {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 15px;
+}
+
+.middleHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-size: 50px;
+  background: -webkit-linear-gradient(rgb(214, 2, 2), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.quoteContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e5e7eb;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+.qouteText {
+  font-size: 25px;
+  font-style: italic;
+  width: 50%;
+  color: darkgrey;
+}
+
+.ctaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.ctaDesign {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: #3882f6;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 20px 100px;
+  border-radius: 10px;
+  color: white;
+}
+
+.ctaButton {
+  color: white;
+  background-color: #3882f6;
+  border-color: white;
+  border-radius: 5px;
+}
+
+
+.mainCardContainer{
+    position: relatibe
+}
